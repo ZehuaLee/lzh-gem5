@@ -125,10 +125,10 @@ class CacheBlk
     int srcMasterId;
 
     //********* modified version by Li **********
-    /** It record the time when the block was first accessed. by Li */
+    /** It record the time when the block was first accessed. */
     Tick tickInserted; //By Li Zehua  20161209
 
-    /** It records the time when the block was evicted from cache. by Li */
+    /** It records the time when the block was evicted from cache. */
     Tick tickEvicted; //By Li Zehua 20161209 
     //********* modification terminated *********
 

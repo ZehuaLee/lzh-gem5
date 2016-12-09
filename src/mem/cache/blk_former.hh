@@ -124,13 +124,7 @@ class CacheBlk
     /** holds the source requestor ID for this block. */
     int srcMasterId;
 
-    //********* modified version by Li **********
-    /** It record the time when the block was first accessed. by Li */
-    Tick tickInserted; //By Li Zehua  20161209
-
-    /** It records the time when the block was evicted from cache. by Li */
-    Tick tickEvicted; //By Li Zehua 20161209 
-    //********* modification terminated *********
+    Tick tickInserted;
 
     /** Number of references to this block since it was brought in. (for tags-in-use) */
     unsigned int tag_refcount;
